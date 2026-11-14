@@ -2,7 +2,7 @@
 import os
 import requests
 from decimal import Decimal as D, InvalidOperation
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 
 
 # CurrencyConv Class
